@@ -1,0 +1,23 @@
+{
+  "name": "temp-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-cli": "nodemon ./bin/index.js create --project-name random-project-name",
+    "run-node-cli": "node ./bin/index.js create --project-name random-project-name",
+    "version-command": "node ./bin/index.js --version"
+  },
+  "bin": {
+    "temp-gen": "./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.0.0",
+    "nodemon": "^3.0.1",
+    "yargs": "^17.7.2"
+  }
+}
