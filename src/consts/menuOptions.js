@@ -8,12 +8,12 @@ const MENU_OPTIONS = [
     choices: [
       {
         name: chalk.yellow("vanilla"),
-        value: (projectName = "my-react-app") =>
+        value: (projectName = "my-app") =>
           `npm init vite@latest ${projectName} -- --template vanilla`,
       },
       {
         name: chalk.blueBright("vanilla-ts"),
-        value: (projectName = "my-react-app") =>
+        value: (projectName = "my-app") =>
           `npm init vite@latest ${projectName} -- --template vanilla-ts`,
       },
       {
@@ -48,12 +48,12 @@ const MENU_OPTIONS = [
             choices: [
               {
                 name: chalk.yellow("Javascript"),
-                value: (projectName = "my-react-app") =>
+                value: (projectName = "my-vue-app") =>
                   `npm init vite@latest ${projectName} -- --template vue`,
               },
               {
                 name: chalk.blueBright("TypeScript"),
-                value: (projectName = "my-react-app") =>
+                value: (projectName = "my-vue-app") =>
                   `npm init vite@latest ${projectName} -- --template vue-ts`,
               },
             ],

@@ -1,6 +1,6 @@
 {
   "name": "temp-gen",
-  "version": "pre alpha 0.5.0",
+  "version": "pre alpha 0.4.0",
   "description": "",
   "main": "index.js",
   "scripts": {
