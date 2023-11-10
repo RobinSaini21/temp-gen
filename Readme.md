@@ -11,11 +11,18 @@ To get started with Temp-Gen, follow these simple installation steps:
 1. Open your terminal or command prompt.
 2. Run the following command to install Temp-Gen globally on your system:
 
-```bash
-npm install -g temp-gen
+`npm install -g temp-gen`
 
-npm install -g .
 
-temp-gen --version
+**Note: This package is not avaible on npm so for now you have to install it from repo.
+
+`npm install -g .`
+
+3. To check if package is installed or not run following command
+
+
+`temp-gen --version`
+
+4. To create project template run following command.
 
 temp-gen create --project-name random-project-name
