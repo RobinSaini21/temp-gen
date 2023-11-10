@@ -25,4 +25,4 @@ To get started with Temp-Gen, follow these simple installation steps:
 
 4. To create project template run following command.
 
-temp-gen create --project-name random-project-name
+`temp-gen create --project-name random-project-name`
