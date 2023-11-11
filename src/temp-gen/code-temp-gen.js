@@ -33,7 +33,6 @@ if(projectConfigCached?.dependencies?.["@angular/core"]){
  }
 };
 
-//fs.writeFileSync("superman.compoent.ts",content)
 }
 
 module.exports = {
