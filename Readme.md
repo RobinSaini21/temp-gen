@@ -1,6 +1,6 @@
 # Temp-Gen CLI - Your Template Generator
 
-![Temp-Gen Logo](temp-gen-logo.png)
+![Temp-Gen Logo](https://i.ibb.co/F5hDZ1M/temp-gen-logo.png)
 
 Temp-Gen is a powerful command-line tool that simplifies the process of generating various project templates, including Vanilla JavaScript, Vanilla TypeScript, Vue.js, Vue.js with TypeScript, React, and React with TypeScript. With Temp-Gen, you can kickstart your projects effortlessly.
 
