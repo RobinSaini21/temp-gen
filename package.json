@@ -1,6 +1,6 @@
 {
   "name": "temp-gen-trace",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "index.js",
   "homepage": "https://github.com/RobinSaini21/temp-gen",
@@ -11,6 +11,11 @@
     "version-command": "node ./bin/index.js --version",
     "genrate-template": "node ./bin/index.js genrate-template --template-name random-project-name"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm -v"
+    }
+  },  
   "bin": {
     "temp-gen": "./bin/index.js"
   },
@@ -26,6 +31,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/RobinSaini21/temp-gen"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3"
   }
-  
 }
