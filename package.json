@@ -15,7 +15,7 @@
     "hooks": {
       "pre-commit": "npm -v"
     }
-  },  
+  },
   "bin": {
     "temp-gen": "./bin/index.js"
   },
@@ -33,6 +33,6 @@
     "url": "https://github.com/RobinSaini21/temp-gen"
   },
   "devDependencies": {
-    "husky": "^8.0.3"
+    "husky": "^4.3.8"
   }
 }
