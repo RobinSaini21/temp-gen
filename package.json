@@ -13,7 +13,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "node ./pre-commit-script.js"
+      "pre-commit": "node ./pre-commit-script.js",
+      "pre-push": "npm publish"
     }
   },
   "bin": {
